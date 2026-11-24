@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment files — NEVER commit
+.env
+.env.local
+.env.production
+*.env
+
+# Build output
+client/dist/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Uploads fallback (if any left over locally)
+server/uploads/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
