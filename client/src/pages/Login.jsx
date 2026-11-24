@@ -19,7 +19,7 @@ const EyeOffIcon = () => (
 );
 
 const BENEFITS = [
-  { icon: '🔒', text: 'Instant access to your purchases & delivery URLs' },
+  { icon: '🔒', text: 'Instant access to your purchases and delivery URLs' },
   { icon: '💬', text: 'Live chat support with the Mojinet team' },
   { icon: '📊', text: 'Full dashboard with purchase history & expiry' },
   { icon: '📱', text: 'Works across all 6 platforms · unlimited devices' },
