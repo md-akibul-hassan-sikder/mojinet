@@ -117,6 +117,17 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+// Root route — satisfies Render's health probes and returns useful info
+app.get('/', (req, res) => {
+  res.json({
+    status: 'ok',
+    service: 'electric-url-api',
+    health: '/api/health',
+    docs: 'All endpoints live under /api/*',
+    timestamp: new Date().toISOString(),
+  });
+});
+
 /* ============================================================
    404
    ============================================================ */
