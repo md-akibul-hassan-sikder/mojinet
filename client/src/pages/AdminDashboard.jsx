@@ -417,7 +417,7 @@ function ProductsTab() {
               <div key={p._id} className="card" style={{ overflow: 'hidden' }}>
                 <div className="product-card__thumb" style={{ aspectRatio: '16/7' }}>
                   {banner ? (
-                    <img src={banner} alt={p.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    <img src={banner} alt={p.title} />
                   ) : (
                     p.title.charAt(0).toUpperCase()
                   )}
