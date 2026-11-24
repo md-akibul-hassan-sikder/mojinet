@@ -2342,6 +2342,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .product-card__ribbon {
+  display: none !important;
   position: absolute;
   top: 12px;
   right: 12px;
