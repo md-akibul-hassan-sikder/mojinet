@@ -108,13 +108,7 @@ export default function Dashboard() {
             <Link to="/products" className="dash-sidebar__btn">
               <span>🛍</span> Browse products
             </Link>
-            <button
-              type="button"
-              className="dash-sidebar__btn dash-sidebar__btn--danger"
-              onClick={logout}
-            >
-              <span>→</span> Log out
-            </button>
+
           </div>
         </aside>
 
@@ -437,7 +431,7 @@ function FullOrderCard({ order: o, onOpenChat }) {
           <div className="notice notice--pending">
             <span>⏳</span>
             <span>
-              Waiting for admin to verify your payment. This usually takes a few hours.
+              Waiting for admin to verify your payment. This usually takes 5 to 10 minutes (max 1 hour).
             </span>
           </div>
         )}

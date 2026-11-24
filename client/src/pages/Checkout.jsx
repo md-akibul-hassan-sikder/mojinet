@@ -235,11 +235,6 @@ export default function Checkout() {
                       <span className="proof-action__title">Choose file</span>
                       <span className="proof-action__sub">From your device</span>
                     </button>
-                    <button type="button" className="proof-action" onClick={openCamera}>
-                      <span className="proof-action__icon">📷</span>
-                      <span className="proof-action__title">Take photo</span>
-                      <span className="proof-action__sub">Open camera</span>
-                    </button>
                   </div>
                 )}
 

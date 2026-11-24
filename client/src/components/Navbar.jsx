@@ -60,7 +60,7 @@ export default function Navbar() {
                   `navbar__link ${isActive ? 'navbar__link--active' : ''}`
                 }
               >
-                Products
+                All Plans
               </NavLink>
             )}
             {user && !isAdmin && (

@@ -79,9 +79,9 @@ export default function Products() {
             <span aria-hidden="true">›</span>
             <span>Products</span>
           </nav>
-          <h1 className="page-head__title">All products</h1>
+          <h1 className="page-head__title">Our All Plans for You</h1>
           <p className="page-head__sub">
-            Pick a plan, pay with WeChat or Alipay, and your access is released within hours.
+            Pick a plan, pay with WeChat or Alipay, and your access is released within 5 to 10 minutes.
           </p>
         </div>
         {!loading && (

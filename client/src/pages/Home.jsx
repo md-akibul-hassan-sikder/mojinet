@@ -102,7 +102,7 @@ export default function Home() {
               </span>
 
               <h1 className="hero-pro__title">
-                Premium digital products,<br />
+                Your Problem Our Solution,<br />
                 <span className="hero-pro__title-accent">delivered instantly.</span>
               </h1>
 
@@ -200,9 +200,9 @@ export default function Home() {
       <div className="container" style={{ paddingTop: 32 }}>
         <div className="section-head" style={{ marginTop: 0 }}>
           <div>
-            <h2 className="section-head__title">Buy a product</h2>
+            <h2 className="section-head__title">Choose your plan</h2>
             <p className="section-head__desc">
-              Choose a plan, pay with WeChat or Alipay, and your access is released within hours.
+              Choose a plan, pay with WeChat or Alipay, and your access is released within 5 to 10 minutes(max 1 hour).
             </p>
           </div>
           <Link to="/products" className="btn btn--secondary btn--sm">View all</Link>
@@ -211,7 +211,7 @@ export default function Home() {
         <ProductCatalog limit={6} />
 
         <div style={{ textAlign: 'center', marginTop: 24 }}>
-          <Link to="/products" className="btn btn--primary">Browse the full catalog</Link>
+          <Link to="/products" className="btn btn--primary">Visit all Plans</Link>
         </div>
       </div>
 

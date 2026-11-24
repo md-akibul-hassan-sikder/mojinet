@@ -1638,7 +1638,7 @@ button { font-family: inherit; cursor: pointer; }
 
 .proof-actions {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 10px;
 }
 .proof-action {
@@ -6394,6 +6394,7 @@ body {
 
 /* ribbon on product card thumbnails for lifetime products */
 .product-card__lifetime {
+  display: none !important;  /* hidden by default, shown via JS */
   position: absolute;
   top: 12px;
   left: 12px;
